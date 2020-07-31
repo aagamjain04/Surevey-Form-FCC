@@ -2,30 +2,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    
     <title>📋Feedback</title>
 </head>
 <body>
     <div class="container">
         <header class="header">
             <h1 id="title">NIE Mysore Survey Form</h1>
-            <p id="description">Thank you for taking the time to help us improve</p>
+            <h5 id="description">Thank you for taking the time to help us improve</h5>
         </header>
         <form id="survey-form">
             <div class="form-group">
-                <label for="name" id="name-label">Name</label>
+                <label for="name" id="name-label" class="label">Name</label>
                 <input type="name" placeholder="Enter your name" class="form-control" id="name">
             </div>
             <div class="form-group">
-                <label for="email" id="email-label">Email</label>
+                <label for="email" id="email-label" class="label">Email</label>
                 <input type="email" placeholder="Enter your email" class="form-control" id="email">
             </div>
             <div class="form-group">
-                <label for="number" id="number-label">Current Year</label>
+                <label for="number" id="number-label" class="label">Current Year</label>
                 <input type="number" min="1" max="4" class="form-control" placeholder="Enter current year">
             </div>
             <div class="form-group">
                 <p>Enter branch</p>
-                <select name="branch" id="dropdown" class="foem-control">
+                <select name="branch" id="dropdown" class="form-control">
                     <option disabled="" selected="" value="">Enter your branch</option>
                     <option value="CSE">CSE</option>
                     <option value="ISE">ISE</option>
@@ -37,39 +40,39 @@
             </div>
             <div class="form-group">
                 <p>Would you like to give Online Exams?</p>
-                <label for="">
+                <label for="" class="label">
                     <input type="radio" name="Opinion" class="input-radio" value="No">
                     No
                 </label>
-                <label for="">
+                <label for="" class="label">
                     <input type="radio" name="Opinion" class="input-radio" value="Definitely No">
                     Definitely No
                 </label>
-                <label for="">
+                <label for="" class="label">
                     <input type="radio" name="Opinion" class="input-radio" value="None of the above">
                     None of the above
                 </label>
                 <div class="form-group">
                     <p>What do you have currenty access to? <span class="clue">(Check all that apply)</span></p>
-                    <label for="">
+                    <label for="" class="label">
                         <input type="checkbox" name="" class="input-checkbox" value="Laptop">
                         Laptop
                     </label>
-                    <label for="">
+                    <label for="" class="label">
                         <input type="checkbox" name="" class="input-checkbox" value="Internet Connection">
                         Internet Connection
                     </label>
-                    <label for="">
+                    <label for="" class="label">
                         <input type="checkbox" name="" class="input-checkbox" value="Smartphone">
                         Smartphone
                     </label>
-                    <label for="">
+                    <label for="" class="label">
                         <input type="checkbox" name="" class="input-checkbox" value="Stationary Items">
                         Stationary Items
                     </label>
                     <div class="form-group">
                         <p>Any comments or suggestions?</p>
-                        <textarea name="comment" id="input-textarea" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
+                        <textarea name="comment" id="input-textarea" placeholder="Enter your comments here..."></textarea>
                      </div>
                      <div class="form-group">
                         <button type="submit" id="submit" class="submit-button">Submit</button>

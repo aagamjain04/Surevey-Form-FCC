@@ -1,0 +1,52 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1;
+    font-size: 1.5em;
+   
+    background-color:rgba(0, 0, 0, 0.554);
+    z-index: 100;
+}
+
+#decription{
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+
+
+.container{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+#survey-form{
+    background: #0fabbc40;
+    margin: 30px;
+    padding: 40px;
+   
+}
+.label{
+    display: block;
+    text-align: left;
+
+
+    
+}
+.form-control{
+    width: 100%;
+    display: block;
+    height: 2.2rem;
+    margin: 10px auto;
+}
+#input-textarea{
+    width: 100%;
+    min-height: 120px;
+    resize: vertical;
+    margin: 15px auto;
+}
+.submit-button{
+    width: 100%;
+    min-height: 2.2rem;
+}
