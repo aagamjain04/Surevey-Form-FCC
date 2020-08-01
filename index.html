@@ -14,20 +14,20 @@
     <div class="container">
         <header class="header">
             <h1 id="title">NIE Mysore Survey Form</h1>
-            <h5 id="description">Thank you for taking the time to help us improve</h5>
+            <p id="description" style="text-align:center;">Thank you for taking the time to help us improve</p>
         </header>
         <form id="survey-form">
             <div class="form-group">
                 <label for="name" id="name-label" class="label">Name</label>
-                <input type="name" placeholder="Enter your name" class="form-control" id="name">
+                <input type="name" placeholder="Enter your name" class="form-control" id="name" required>
             </div>
             <div class="form-group">
                 <label for="email" id="email-label" class="label">Email</label>
-                <input type="email" placeholder="Enter your email" class="form-control" id="email">
+                <input type="email" placeholder="Enter your email" class="form-control" id="email" required>
             </div>
             <div class="form-group">
                 <label for="number" id="number-label" class="label">Current Year</label>
-                <input type="number" min="1" max="4" class="form-control" placeholder="Enter current year">
+                <input type="number" required min="1" max="4" class="form-control" placeholder="Enter current year" id="number">
             </div>
             <div class="form-group">
                 <p>Enter branch</p>
